@@ -11,6 +11,8 @@
 [![GitHub Stars](https://img.shields.io/github/stars/zjzno1/remoshuang?style=flat-square&label=Stars)](https://github.com/zjzno1/remoshuang/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/zjzno1/remoshuang?style=flat-square&label=Last%20commit)](https://github.com/zjzno1/remoshuang/commits/main)
 
+[![热摸爽首页：今日热榜、正在升温与每日早报](assets/remoshuang-home.webp)](https://remoshuang.com/)
+
 热摸爽（remoshuang）是面向中文用户的**全网热榜聚合网站**。它把新闻媒体、内容平台、
 技术社区和公开榜单中的热门内容整理到一起，提供今日热榜、实时热搜、热点事件、每日早报、
 历史热搜存档、趋势观察、RSS 订阅和网页嵌入组件。
