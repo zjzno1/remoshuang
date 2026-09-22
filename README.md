@@ -1,15 +1,25 @@
-# 热摸爽：全网热榜、实时热搜与热点 RSS 聚合网站
+# 热摸爽：全网热榜、实时热搜与热点 RSS 聚合
 
-> 一页查看微博热搜、知乎热榜、今日头条、GitHub Trending、科技新闻、财经资讯等
-> 200 多个公开来源正在关注什么。
+> 一页了解今天互联网发生了什么。
 
-**官方网站：<https://remoshuang.com/>** · [今日热榜](https://remoshuang.com/) ·
-[热点 RSS](https://remoshuang.com/rss) · [历史热搜](https://remoshuang.com/hot) ·
+**[访问热摸爽](https://remoshuang.com/)** · [RSS](https://remoshuang.com/rss) ·
+[今日大事](https://remoshuang.com/news) ·
 [开发者接入](https://remoshuang.com/developers)
+
+[![Website](https://img.shields.io/badge/Website-remoshuang.com-E5484D?style=flat-square)](https://remoshuang.com/)
+[![RSS](https://img.shields.io/badge/RSS-订阅-F26522?style=flat-square&logo=rss&logoColor=white)](https://remoshuang.com/rss)
+[![GitHub Stars](https://img.shields.io/github/stars/zjzno1/remoshuang?style=flat-square&label=Stars)](https://github.com/zjzno1/remoshuang/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/zjzno1/remoshuang?style=flat-square&label=Last%20commit)](https://github.com/zjzno1/remoshuang/commits/main)
 
 热摸爽（remoshuang）是面向中文用户的**全网热榜聚合网站**。它把新闻媒体、内容平台、
 技术社区和公开榜单中的热门内容整理到一起，提供今日热榜、实时热搜、热点事件、每日早报、
 历史热搜存档、趋势观察、RSS 订阅和网页嵌入组件。
+
+⭐ 如果热摸爽对你有用，欢迎 [Star 本仓库](https://github.com/zjzno1/remoshuang)，以后从
+GitHub 也能快速找到它。
+
+> [!NOTE]
+> 本仓库是热摸爽的公开项目主页与开发者文档，不包含生产源码、内部配置或采集实现。
 
 浏览公开内容不需要注册，也不用安装 App。用户可以快速了解今天发生了什么，再前往原始来源
 阅读和核对全文；开发者与 AI Agent 可以使用公开的 RSS、OPML、Markdown 和站点地图入口。
@@ -23,6 +33,7 @@
 - [开发者与 Agent 接入](#开发者与-agent-接入)
 - [数据原则与内容边界](#数据原则与内容边界)
 - [常见问题](#常见问题)
+- [参与与反馈](#参与与反馈)
 - [联系与反馈](#联系与反馈)
 
 ## 热摸爽是什么
@@ -312,6 +323,18 @@ Trending、科技媒体、财经媒体和技术社区等公开来源的热门内
 
 热点标题、摘要和链接的权利归各原始来源所有。转述具体事件时应保留原始出处；批量转载、
 二次分发或商业使用前，请阅读[版权与内容删除](https://remoshuang.com/copyright)并联系站方。
+
+## 参与与反馈
+
+欢迎通过 GitHub 参与公开文档与产品反馈：
+
+- [推荐公开信息源](https://github.com/zjzno1/remoshuang/issues/new?template=source_request.yml)
+- [提交功能建议](https://github.com/zjzno1/remoshuang/issues/new?template=feature_request.yml)
+- [报告公开内容问题](https://github.com/zjzno1/remoshuang/issues/new?template=content_problem.yml)
+- [改进项目文档](CONTRIBUTING.md)
+
+GitHub Issue 是公开的。安全漏洞、隐私、版权、删除请求或任何包含敏感信息的问题，请勿发布到
+Issue；请阅读[安全说明](SECURITY.md)并改用网站联系入口。
 
 ## 联系与反馈
 

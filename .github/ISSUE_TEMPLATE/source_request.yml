@@ -1,0 +1,78 @@
+name: 推荐公开信息源
+description: 推荐一个适合加入热摸爽的公开榜单、媒体或社区来源
+title: "[来源推荐] "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢推荐。请只提交可公开访问、来源清晰且适合长期收录的信息源，不要粘贴 Cookie、Token 或内部接口。
+  - type: input
+    id: source_name
+    attributes:
+      label: 来源名称
+      placeholder: 例如：某某科技热榜
+    validations:
+      required: true
+  - type: input
+    id: public_url
+    attributes:
+      label: 公开网址
+      description: 请提供普通用户可以访问的官方页面。
+      placeholder: https://example.com/hot
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: 为什么值得加入
+      description: 说明内容特色、目标读者，以及与现有来源的差异。
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 所属分类
+      options:
+        - 科技
+        - AI
+        - 编程
+        - 新闻
+        - 财经
+        - 社区
+        - 知识
+        - 娱乐
+        - 游戏
+        - 生活
+        - 国际
+        - 体育
+        - 健康
+        - 设计
+        - 教育
+        - 其他
+    validations:
+      required: true
+  - type: dropdown
+    id: public_feed
+    attributes:
+      label: 是否有官方 RSS、API 或公开榜单
+      options:
+        - 有官方 RSS
+        - 有官方公开 API
+        - 有公开榜单页面
+        - 不确定
+    validations:
+      required: true
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: 补充信息
+      description: 可以补充更新频率、官方说明或其他可公开核对的信息。
+  - type: checkboxes
+    id: public_confirmation
+    attributes:
+      label: 公开信息确认
+      options:
+        - label: 我确认以上内容可以公开，且不包含 Cookie、Token、Secret、个人数据或内部接口。
+          required: true

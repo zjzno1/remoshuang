@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 产品反馈
+    url: https://remoshuang.com/feedback
+    about: 提交一般产品反馈、使用问题或不适合公开讨论的建议
+  - name: 版权、删除、隐私与安全
+    url: https://remoshuang.com/contact
+    about: 请勿在公开 Issue 中提交敏感信息，请通过网站联系入口处理
+  - name: 商业合作
+    url: https://remoshuang.com/business
+    about: 品牌、内容、数据源或其他商业合作

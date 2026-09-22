@@ -1,0 +1,43 @@
+name: 功能建议
+description: 描述一个真实使用场景和希望改进的产品体验
+title: "[功能建议] "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请从使用场景和实际问题出发。安全、隐私、版权或删除请求请使用 https://remoshuang.com/contact。
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 你在什么情况下使用热摸爽？
+    validations:
+      required: true
+  - type: textarea
+    id: current_problem
+    attributes:
+      label: 当前问题
+      description: 现在遇到了什么困难，或者为什么现有功能无法满足需求？
+    validations:
+      required: true
+  - type: textarea
+    id: expected_solution
+    attributes:
+      label: 希望怎样解决
+      description: 描述期望结果即可，不需要设计内部实现。
+    validations:
+      required: true
+  - type: textarea
+    id: similar_products
+    attributes:
+      label: 是否已有类似产品
+      description: 如果有可供参考的公开产品或交互，请附链接并说明值得参考的部分。
+  - type: checkboxes
+    id: public_confirmation
+    attributes:
+      label: 公开信息确认
+      options:
+        - label: 我确认以上内容可以公开，且不包含账号、用户数据、后台截图或其他敏感信息。
+          required: true

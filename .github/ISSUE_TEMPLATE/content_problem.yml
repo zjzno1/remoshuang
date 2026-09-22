@@ -1,0 +1,43 @@
+name: 报告公开内容问题
+description: 报告公开页面中的错误、失效链接或需要核对的内容
+title: "[内容问题] "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        本模板只处理公开页面问题。版权、隐私、删除或安全问题请勿公开提交，请使用 https://remoshuang.com/contact。
+  - type: input
+    id: page_url
+    attributes:
+      label: 页面 URL
+      placeholder: https://remoshuang.com/...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 说明看到的内容、发生时间，以及为什么认为它有问题。
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 正确内容或来源
+      description: 请尽量提供可公开核对的原始来源链接。
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 截图（可选）
+      description: 请先移除账号、通知、Cookie、后台数据和其他个人信息。
+  - type: checkboxes
+    id: public_confirmation
+    attributes:
+      label: 公开信息确认
+      options:
+        - label: 我确认以上内容可以公开，且不包含个人数据或其他敏感信息。
+          required: true
